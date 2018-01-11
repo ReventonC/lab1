@@ -14,12 +14,19 @@
 body {
      border: 1px dotted gray;
      padding: 20px;
+     background: #b3c6e5;
+     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.major {
+     color: #49494f;
 }
 
 .jumbotron {
 	position: relative;
 	background: none;
 }
+
 
 .jumbotron:after {
      content:"";
@@ -31,4 +38,17 @@ body {
      right: 0;
      position: absolute;
      z-index: -1;
+}
+
+.project {
+     margin: 20px;
+     padding-top: 10px;
+     background: #3c6bb7;
+     text-align: center;
+     vertical-align: middle;
+}
+
+.project p {
+     font-size: 20px;
+     color: #d5d5ed
 }
